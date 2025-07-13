@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Contacto Institucional</title>
+  <link rel="stylesheet" href="assets/css/contacto.css">
+</head>
+<body>
+  <main class="contacto">
+    <h1>Contacto Institucional</h1>
+    <form action="mailto:contacto@transparencia.gob.mx" method="post" enctype="text/plain">
+      <label for="nombre">Nombre completo:</label>
+      <input type="text" id="nombre" name="Nombre" required>
+
+      <label for="correo">Correo electrónico:</label>
+      <input type="email" id="correo" name="Correo" required>
+
+      <label for="asunto">Asunto:</label>
+      <input type="text" id="asunto" name="Asunto" required>
+
+      <label for="mensaje">Mensaje:</label>
+      <textarea id="mensaje" name="Mensaje" rows="5" required></textarea>
+
+      <button type="submit">Enviar</button>
+      <button type="reset">Limpiar</button>
+    </form>
+  </main>
+</body>
+</html>

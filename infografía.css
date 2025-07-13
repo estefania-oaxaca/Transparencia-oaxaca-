@@ -1,0 +1,32 @@
+body {
+  background-color: #f0f4f8;
+  font-family: 'Segoe UI', sans-serif;
+  color: #003366;
+  margin: 0;
+  padding: 40px 0;
+}
+
+.infografia {
+  max-width: 800px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 30px;
+  border-radius: 10px;
+  box-shadow: 0 0 12px rgba(0,0,0,0.06);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+p {
+  margin-bottom: 30px;
+  font-size: 1.1em;
+}
+
+img {
+  max-width: 100%;
+  border-radius: 6px;
+}

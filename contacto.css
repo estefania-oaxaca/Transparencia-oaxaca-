@@ -1,0 +1,55 @@
+body {
+  background-color: #f5f6f8;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 40px 0;
+  color: #003366;
+}
+
+.contacto {
+  max-width: 700px;
+  margin: auto;
+  background-color: #ffffff;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 0 14px rgba(0,0,0,0.08);
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2em;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+label {
+  margin-top: 15px;
+  font-weight: bold;
+}
+
+input, textarea {
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  font-size: 1em;
+}
+
+button {
+  margin-top: 20px;
+  padding: 12px;
+  background-color: #005a9c;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #003366;
+}
